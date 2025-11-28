@@ -1,6 +1,8 @@
 SELECT SUM(pay_amount) AS gmv
 FROM orders;
 
+"output total gmv"
+
 SELECT
     order_month AS month,
     SUM(pay_amount) AS gmv
